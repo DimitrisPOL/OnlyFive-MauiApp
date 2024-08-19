@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:mct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+            x:Class="MauiApp1.TabbedOnlyFive">
+    <ContentPage Title="Chest" IconImageSource="chest.svg"
+                 xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+        <ScrollView>
+        <StackLayout Margin="20"
+                 Spacing="6">
+            <Label Text="All the Chest workout you need" />
+            <WebView Source="https://www.youtube.com/embed/CqLo6br92dI?si=8p-3BsAkQ5z7eQ50"
+                           HeightRequest="300"
+                            WidthRequest="400">
+            </WebView>
+            <WebView Source="https://www.youtube.com/embed/o1-bwsXp_Wg?si=6Q1ikS_wFgrssYGG"
+                           HeightRequest="300"
+                            WidthRequest="400">
+            </WebView>
+
+            <WebView Source="https://www.youtube.com/embed/o1-bwsXp_Wg?si=I3NdIYG4On02Unzm"
+                           HeightRequest="300"
+                            WidthRequest="400">
+            </WebView>
+            <WebView Source="https://www.youtube.com/embed/CqLo6br92dI?si=HFa1ioRk8Nz6Km71"
+                         HeightRequest="300"
+                          WidthRequest="400">
+            </WebView>
+        </StackLayout>
+            </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Shoulders" IconImageSource="shoulders.svg"
+                 xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+        <ScrollView>
+        <StackLayout Margin="20"
+           Spacing="6">
+            <Label Text="Build great shouldersd" />
+            <WebView Source="https://www.youtube.com/embed/JzGZqTXqhqY?si=dV77w6Q_FtUwhBvi"
+                           HeightRequest="300"
+                            WidthRequest="400">
+            </WebView>
+
+            <WebView Source="https://www.youtube.com/embed/rnDWTXYDMOg?si=TQsQz5PfdOpBH5bN"
+                           HeightRequest="300"
+                            WidthRequest="400">
+            </WebView>
+
+            <WebView Source="https://www.youtube.com/embed/XfjAI0P-Jd8?si=43QbDDJNRppOYQKF"
+                           HeightRequest="300"
+                            WidthRequest="400">
+            </WebView>
+
+            <WebView Source="https://www.youtube.com/embed/V0dYd1jyLpE?si=svYbrZNgOMjF-mZ3"
+                           HeightRequest="300"
+                            WidthRequest="400">
+            </WebView>
+        </StackLayout>
+            </ScrollView>
+    </ContentPage>
+        
+    <ContentPage Title="Biceps" IconImageSource="biceps.svg"
+                 xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+        <ScrollView>
+        <StackLayout Margin="20"
+           Spacing="6">
+            <Label Text="Improve your biceps" />
+            <WebView Source="https://www.youtube.com/embed/ymCcs3lhiLs?si=wRRQUuUiJpYrV0nH"
+                           HeightRequest="300"
+                            WidthRequest="400">
+            </WebView>
+
+            <WebView Source="https://www.youtube.com/embed/ZSzz6JChQhE?si=QDt5iRKqN4qqcnKr"
+                           HeightRequest="300"
+                            WidthRequest="400">
+            </WebView>
+
+            <WebView Source="https://www.youtube.com/embed/Q2ikBTIuoVc?si=TsgE0j37s-xAjGS0"
+                           HeightRequest="300"
+                            WidthRequest="400">
+            </WebView>
+
+            <WebView Source="https://www.youtube.com/embed/v4iRmK91cB0?si=ig-Gtp2AmyrYkvxx"
+                           HeightRequest="300"
+                            WidthRequest="400">
+            </WebView>
+        </StackLayout>
+            </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Abs" IconImageSource="abs.svg"
+                 xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+        <ScrollView>
+        <StackLayout Margin="20"
+           Spacing="6">
+            <Label Text="Build killer abs" />
+            <WebView Source="https://www.youtube.com/embed/QdIutxfm_hU?si=z0Fp9k1Qx5ecAdsC"
+                           HeightRequest="300"
+                            WidthRequest="400">
+            </WebView>
+
+            <WebView Source="https://www.youtube.com/embed/HhXl6NAxUAo?si=MY4-1AjurUJzGOFZ"
+                           HeightRequest="300"
+                            WidthRequest="400">
+            </WebView>
+
+            <WebView Source="https://www.youtube.com/embed/gg33A9qlFh8?si=0_pnybCmTVEpEsSp"
+                           HeightRequest="300"
+                            WidthRequest="400">
+            </WebView>
+
+            <WebView Source="https://www.youtube.com/embed/8PwoytUU06g?si=MT7qyotGkuRtfHdh"
+                           HeightRequest="300"
+                            WidthRequest="400">
+            </WebView>
+        </StackLayout>
+            </ScrollView>
+    </ContentPage>
+</TabbedPage>
